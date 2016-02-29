@@ -1,14 +1,46 @@
 {
   "name": "cylon-chip",
-  "description": "Your package description",
-  "version": "0.0.0",
-  "devDependencies": {
-    "chai": "3.0.0",
-    "mocha": "2.2.5",
-    "sinon": "1.15.4",
-    "sinon-chai": "2.8.0"
+  "description": "Cylon.js adaptor for the C.H.I.P. single-board computer",
+  "version": "0.1.0",
+
+  "homepage": "http://cylonjs.com",
+  "bugs": "https://github.com/hybridgroup/cylon-beaglebone/issues",
+
+  "author": "The Hybrid Group <cylonjs@hybridgroup.com>",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hybridgroup/cylon-beaglebone"
   },
+
+  "license": "Apache-2.0",
+
+  "keywords": [
+    "cylon",
+    "cylonjs",
+    "cylons",
+    "robot",
+    "robots",
+    "robotics",
+    "iot",
+    "hardware",
+    "gpio",
+    "i2c",
+    "chip",
+    "C.H.I.P.",
+    "Nexthingco"
+  ],
+
+  "devDependencies": {
+    "sinon-chai": "~2.4.0",
+    "chai":       "~1.7.2",
+    "mocha":      "~1.12.1",
+    "sinon":      "~1.7.3",
+    "eslint":     "0.22.1"
+  },
+
   "dependencies": {
-    "cylon": "1.2.0"
+    "cylon": "^1.2.0",
+    "chip-io": "^1.0.0"
   }
 }
