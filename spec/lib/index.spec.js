@@ -2,31 +2,18 @@
 
 var index = lib("../");
 
-var Adaptor = lib("adaptor"),
-    Driver = lib("driver");
+var Adaptor = lib("adaptor");
 
 describe("index", function() {
   describe("#adaptors", function() {
     it("is an array of supplied adaptors", function() {
-      expect(index.adaptors).to.be.eql([]);
-    });
-  });
-
-  describe("#drivers", function() {
-    it("is an array of supplied drivers", function() {
-      expect(index.drivers).to.be.eql([]);
+      expect(index.adaptors).to.be.eql(["chip"]);
     });
   });
 
   describe("#dependencies", function() {
     it("is an array of supplied dependencies", function() {
-      expect(index.dependencies).to.be.eql([]);
-    });
-  });
-
-  describe("#driver", function() {
-    it("returns an instance of the Driver", function() {
-      expect(index.driver()).to.be.instanceOf(Driver);
+      expect(index.dependencies).to.be.eql(["cylon-gpio", "cylon-i2c"]);
     });
   });
 
