@@ -28,12 +28,12 @@ Cylon.robot({
   },
 
   devices: {
-    led: { driver: "led", pin: "" },
-    button: { driver: "button", pin: "" }
+    led: { driver: "led", pin: "XIO-PO" },
+    button: { driver: "button", pin: "XIO-P1" }
   },
 
   work: function(my) {
-    my.button.on('push', function() {my.led.toggle()});
+    my.button.on('push', function() { my.led.toggle() });
   }
 }).start();
 ```
@@ -41,6 +41,10 @@ Cylon.robot({
 ## How to Connect
 
 You will likely want to connect your development machine to your C.H.I.P. while working on your code. You can do this easily, just by connecting to the C.H.I.P. over USB. Then, you can connect to the C.H.I.P. using Network-Over-USB, and upload driver or configuration changes.
+
+The GPIO interface for the C.H.I.P currently supports pins `XIO-PO` thru `XIO-P7`.
+
+The I2C interface for the C.H.I.P currently supports I2C bus 1 using `TWI1-SCK` and `TWI1-SDA` only.
 
 ### OS X
 
