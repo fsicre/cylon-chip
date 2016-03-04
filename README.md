@@ -24,7 +24,7 @@ var Cylon = require("cylon");
 // Initialize the robot
 Cylon.robot({
   connections: {
-    beaglebone: { adaptor: "chip" }
+    chip: { adaptor: "chip" }
   },
 
   devices: {
@@ -42,7 +42,7 @@ Cylon.robot({
 
 You will likely want to connect your development machine to your C.H.I.P. while working on your code. You can do this easily, just by connecting to the C.H.I.P. over USB. Then, you can connect to the C.H.I.P. using Network-Over-USB, and upload driver or configuration changes.
 
-The GPIO interface for the C.H.I.P currently supports pins `XIO-PO` thru `XIO-P7`.
+The GPIO interface for the C.H.I.P currently supports pins `XIO-PO` thru `XIO-P7`. You can also use the `STATUS` pin for the built-in LED.
 
 The I2C interface for the C.H.I.P currently supports I2C bus 1 using `TWI1-SCK` and `TWI1-SDA` only.
 
