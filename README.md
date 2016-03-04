@@ -65,6 +65,17 @@ By default, the C.H.I.P's login credentials are:
 - **user:** `root`
 - **pass:** `chip`
 
+### Node.js Setup on the C.H.I.P.
+
+Login to the C.H.I.P., and then run the following commands:
+
+```
+sudo apt-get update
+sudo apt-get install curl git build-essentials
+```
+
+Now you are ready to install Node.js itself. You can either obtain the latest release from the official [Node.js downloads page](https://nodejs.org/en/download/) or use something like [Node Version Manager (nvm)](https://github.com/creationix/nvm).
+
 ## Documentation
 
 We're busy adding documentation to our web site at http://cylonjs.com/ please check there as we continue to work on Cylon.js
