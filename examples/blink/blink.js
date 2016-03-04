@@ -4,11 +4,11 @@ var Cylon = require("cylon");
 
 Cylon.robot({
   connections: {
-    beaglebone: { adaptor: "chip" }
+    chip: { adaptor: "chip" }
   },
 
   devices: {
-    led: { driver: "led", pin: "XIO-PO" }
+    led: { driver: "led", pin: "STATUS" }
   },
 
   work: function(my) {
