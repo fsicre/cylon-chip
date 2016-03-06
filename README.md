@@ -38,25 +38,13 @@ Cylon.robot({
 }).start();
 ```
 
-## How to Connect
-
-You will likely want to connect your development machine to your C.H.I.P. while working on your code. You can do this easily, just by connecting to the C.H.I.P. over USB. Then, you can connect to the C.H.I.P. using Network-Over-USB, and upload driver or configuration changes.
-
 The GPIO interface for the C.H.I.P currently supports pins `XIO-PO` thru `XIO-P7`. You can also use the `STATUS` pin for the built-in LED.
 
 The I2C interface for the C.H.I.P currently supports I2C bus 1 using `TWI1-SCK` and `TWI1-SDA` only.
 
-### OS X
+## How to Connect
 
-Info goes here
-
-### Linux
-
-Info goes here...
-
-### Windows
-
-Info goes here...
+You will likely want to connect your development machine to your C.H.I.P. while working on your code. You can do this easily, just by connecting to the C.H.I.P. over USB. Then, you can connect to the C.H.I.P. using Network-Over-USB, and upload driver or configuration changes.
 
 ### Credentials
 
@@ -65,7 +53,7 @@ By default, the C.H.I.P's login credentials are:
 - **user:** `root`
 - **pass:** `chip`
 
-### Node.js Setup on the C.H.I.P.
+### Installing Node.js on the C.H.I.P.
 
 Login to the C.H.I.P., and then run the following commands:
 
