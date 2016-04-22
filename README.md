@@ -1,6 +1,6 @@
 # Cylon.js For C.H.I.P.
 
-Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics, physical computing, and the Internet of Things (IoT).
+Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics, physical computing, and the Internet of Things (IoT) using Node.js.
 
 This module provides an adaptor for the C.H.I.P. $9 single-board Linux computer (http://getchip.com/). It uses the Chip-IO node module (https://github.com/sandeepmistry/node-chip-io) created by [@sandeepmistry](https://github.com/sandeepmistry), thank you!
 
@@ -12,9 +12,9 @@ Want to use the Go programming language to power your robots? Check out our sist
 
 ## How to Install
 
-Installing Cylon.js on C.H.I.P. is easy, but must be done on the C.H.I.P. itself, or on another Linux computer.
+Installing Cylon.js on C.H.I.P. is easy, but must be done on the C.H.I.P. itself.
 
-    $ npm install cylon cylon-chip
+    $ npm install cylon cylon-chip cylon-gpio cylon-i2c
 
 ## How to Use
 
