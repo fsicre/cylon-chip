@@ -1,7 +1,7 @@
 {
   "name": "cylon-chip",
   "description": "Cylon.js adaptor for the C.H.I.P. single-board computer",
-  "version": "0.2.0",
+  "version": "0.3.0",
 
   "homepage": "http://cylonjs.com",
   "bugs": "https://github.com/hybridgroup/cylon-beaglebone/issues",
