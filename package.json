@@ -41,6 +41,6 @@
 
   "dependencies": {
     "cylon": "^1.3.0",
-    "chip-io": "^1.0.0"
+    "chip-io": "^2.0.0"
   }
 }
